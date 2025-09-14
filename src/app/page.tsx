@@ -16,7 +16,8 @@ export default function Home() {
       <div className="container mx-auto mt-20">
         <h1 className="text-3xl font-bold mb-10 items-start">Next.js + shadcn/ui Sample</h1>
         <div className="flex flex-col gap-10 items-start">
-          <Button >Click me!</Button>
+          <Button>Click me!</Button>
+          <Button className="font-bold">Click me!</Button>
           <Button variant="secondary">Secondary</Button>
           <Button variant="destructive">Destructive</Button>
           <Button size="sm" disabled>
